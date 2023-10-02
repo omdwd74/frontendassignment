@@ -1,4 +1,34 @@
 <h1>
   Welcome in Task List
-  
+
 </h1>
+<h2>
+  {{omi}}
+</h2>
+<!-- <app-login></app-login>
+<button (click)="getname('omji')">Click me 
+ 
+</button>
+
+<button (click)="getData('hello')">Call function</button>
+<br>
+
+<input type="text" #box (keyup) = "getData(box.value)" placeholder="write something here for key up">
+ 
+<br>
+<br>
+<input type="text" #box1 (keydown) = "getData(box1.value)" placeholder="write something here for key down">
+ 
+<br>
+<br>
+<input type="text" #box2 (blur) = "getData(box2.value)" placeholder="blur event">
+<br>
+<br>
+<input type="text" #box3 (input) = "getData(box3.value)" placeholder="write something here for key down">
+ 
+<h1 (mouseover) = "getData('game over ')" >
+  Omi that is too boring 
+</h1> -->
+<input type="text" #box  placeholder="enter task here" name="name" />
+<button (click)="getValue(box.value)"> Add a Task</button>
+<h1>{{displayName}}</h1>
